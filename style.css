@@ -13,7 +13,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: auto;
-  background-image: url(waterfall.gif)
+  background-image: url(waterfall.gif);
   display: table;
   top: 0;
   background-repeat: no-repeat;
@@ -34,4 +34,164 @@ html, body {
   margin: 0 auto;
   text-align: center;
 
+}
+
+.content h1{
+  font-family: 'Raleway', sans-serif;
+  color: rgb(235, 255, 235);
+  text-shadow: 0px 0px 300px #000;
+  font-size: 500%;
+
+}
+
+.btn{
+  border-radius: 9px;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(217, 255, 204);
+  font-size: 135%;
+  padding: 10px 20px;
+  border: solid rgb(217, 255, 204) 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow:  #000;
+}
+
+.btn:hover{
+  color: #fff;
+  border: solid #fff 3px;s
+}
+
+.nav{
+float: center;
+list-style: none;
+margin-bottom: 80px;
+margin-right: 30px;
+text-decoration: none;
+color: white;
+
+}
+.nav li{
+  display: inline-block;
+}
+.nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  border: 1px solid white;
+}
+
+.nav li a:hover{
+  color: #82ff97;
+  border: 1px solid #82ff97;
+}
+
+.parallax {
+      /* The image used */
+      background-image: url("for.jpeg");
+      /* Full height */
+      height: 100%;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+.team-section{
+  overflow: hidden;
+  text-align: center;
+  background: rgb(24, 99, 32);
+  padding: 80px;
+}
+
+.team-section h1{
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: white;
+  font-size: 40px;
+}
+
+.border{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background: rgb(157, 250, 42);
+  margin-bottom: 40px;
+}
+
+.ps{
+  margin-bottom: 40px;
+}
+
+.ps a {
+  display: inline-block;
+  margin: 0 30px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.ps a img{
+  width: 100%;
+  transition: 0.4s all;
+}
+
+.ps a:hover > img{
+  filter: grayscale(100%);
+}
+
+.section{
+  width: 600px;
+  margin: auto;
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+.section:target{
+  height: auto;
+}
+.name{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  float: center;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+@media screen and (max-width: 768px){
+  .content h1{
+    font-size: 250%;
+  }
+  .btn{
+    font-size: 110%;
+    padding: 7px 15px;
+  }
+  p{
+    font-size: 100%;
+    line-height: 160%;
+  }
 }
