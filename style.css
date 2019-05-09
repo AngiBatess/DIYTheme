@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* this allows the browser not to fuck it up */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.intro{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url(waterfall.gif)
+  display: table;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.intro .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+
+}
+
+.content{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+
+}
