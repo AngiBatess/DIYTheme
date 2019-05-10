@@ -6,6 +6,7 @@
   <link rel="stylesheet" type: "text/css" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title></title>
+
 </head>
 
 <body>
@@ -43,29 +44,16 @@
           <h1>Our Team</h1>
           <span class="border"></span>
           <div class="ps">
-            <a href="#guy"><img src="guy.jpeg" alt=""> </a>
-            <a href="#lady"><img src="lady.jpeg" alt=""> </a>
-            <a href="#man"><img src="man.jpeg" alt=""> </a>
+            <a onmouseover='document.getElementById("membername").innerHTML="John Doe";document.getElementById("membertext").innerHTML="Member 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";'><img src="guy.jpeg" alt=""> </a>
+            <a onmouseover='document.getElementById("membername").innerHTML="Jane Doe";document.getElementById("membertext").innerHTML="Member 2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";'><img src="lady.jpeg" alt=""> </a>
+            <a onmouseover='document.getElementById("membername").innerHTML="Joe Smith";document.getElementById("membertext").innerHTML="Member 3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";'><img src="man.jpeg" alt=""> </a>
           </div>
 
-          <div class="section" id="guy">
-            <span class="name">John Doe</span>
+          <div class="section1" id="newteam">
+            <span class="name" id="membername">John Doe</span>
             <span class="border"></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p id="membertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
-
-          <div class="section" id="lady">
-            <span class="name">Jane Doe</span>
-            <span class="border"></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-
-          <div class="section" id="man">
-            <span class="name">Joe Smith</span>
-            <span class="border"></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
     </div>
 
 
@@ -79,6 +67,10 @@
          long-ovate, 6.25 to 11.25 centimeters (2 1/2 to 4 1/2 inches) long, finely toothed, with slender wings on the petioles.</div>
       </div>
 
+
+      <!-- <script type="text/javascript">
+
+      </script> -->
 </body>
 
 </html>

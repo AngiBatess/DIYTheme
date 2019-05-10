@@ -153,6 +153,13 @@ color: white;
   height: 0;
   overflow: hidden;
 }
+.section1{
+  width: 600px;
+  margin: auto;
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+}
 .section:target{
   height: auto;
 }
